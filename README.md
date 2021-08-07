@@ -1,0 +1,2 @@
+# jsinews
+A news aggregator
