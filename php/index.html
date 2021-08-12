@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+    
+    <script src="https://unpkg.com/htmx.org@1.5.0"></script>
+  </head>
+  <body>
+    <div name="mainHead" hx-get="api.php?r=mainHead" hx-trigger="load" hx-target="this"></div>
+    <div name="mainList" hx-get="api.php?r=mainList" hx-trigger="load" hx-target="this"></div>
+    <div name="mainContent" hx-get="api.php?r=mainContent" hx-trigger="load" hx-target="this"></div>
+  </body>
+</html>
